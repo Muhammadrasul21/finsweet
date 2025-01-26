@@ -22,7 +22,8 @@
 .logos{
     margin-top: 33px;
 }
-.title{
+.title,
+.mediaTitle{
     margin-left: 96px;
 }
 .img{
