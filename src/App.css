@@ -41,3 +41,10 @@
     padding: 98px 0;
     margin-top: 50px;
 }
+.textarea{
+    padding: 20px;
+}
+iframe{
+    margin-top: 96px;
+    margin-bottom: -50px;
+}

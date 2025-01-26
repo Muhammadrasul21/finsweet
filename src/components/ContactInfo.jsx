@@ -11,7 +11,7 @@ const ContactInfo = () => {
                 <hr className='w-[72px]' />
                 <p className='font-bold'>CONTACT US</p>
             </div>
-            <div className='title'>
+            <div className='title flex flex-col gap-8'>
             <p className='font-bold text-5xl '>We'd love to hear from you</p>
             <p>Have any question in mind or want to enquire? Please feel free to contact us through the form or the following details.</p>
             </div>
