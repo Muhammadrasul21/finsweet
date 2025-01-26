@@ -15,7 +15,7 @@ const Media = () => {
                   <hr className='w-[72px]' />
                   <p className='font-bold'>Top news</p>
                 </div>
-                <div className='mediaTitle flex flex-col gap-4'>
+                <div className='title flex flex-col gap-4'>
                 <p className=' font-bold text-5xl'>Our goal is to make water available for everyone</p>
                 <p>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
                 <div>
