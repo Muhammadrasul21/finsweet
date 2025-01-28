@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../../components/Layout";
 import bgtwo from "../../assets/bg2.png";
 import Supporters from "../../components/Supporters";
+import Awards from "@/components/Awards";
+import Journey from "@/components/Journey";
 const About = () => {
   return (
     <>
@@ -75,6 +77,8 @@ const About = () => {
             </div>
           </div>
         </div>
+        <Awards />
+        <Journey/>
       </Layout>
     </>
   );

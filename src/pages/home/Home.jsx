@@ -5,6 +5,10 @@ import Info from "@/components/Info";
 import Supporters from "@/components/Supporters";
 import Care from "@/components/Care";
 import Projects from "@/components/Projects";
+import Donation from "@/components/donation";
+import Contribute from "@/components/Contribute";
+import News from "@/components/News";
+import Events from "@/components/Events";
 const Home = () => {
   return (
     <>
@@ -14,6 +18,10 @@ const Home = () => {
         <Supporters />
         <Care />
         <Projects />
+        <Donation />
+        <Contribute />
+        <News />
+        <Events />
       </Layout>
     </>
   );

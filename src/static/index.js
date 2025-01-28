@@ -9,7 +9,7 @@ import {
   PiPlant,
 } from "react-icons/pi";
 import { LuWaves } from "react-icons/lu";
-import { FaDroplet } from "react-icons/fa6";
+import { FaDroplet, FaArrowRightLong } from "react-icons/fa6";
 import { GiSittingDog } from "react-icons/gi";
 import dog from "../assets/dog.png";
 import girl from "../assets/girl.png";
@@ -18,6 +18,13 @@ import forest from "../assets/forest.png";
 import wind from "../assets/wind.png";
 import water from "../assets/water.png";
 import nature from "../assets/Thumbnail.png";
+import tree from "../assets/tree.png";
+import palm from "../assets/palm.png";
+import field from "../assets/field.png";
+import ngo from "../assets/ngo.svg";
+import global from "@/assets/global.svg";
+import earth from "@/assets/earth.svg";
+import foresto from "@/assets/foresto.svg";
 
 export const navItems = [
   {
@@ -169,5 +176,103 @@ export const careItems = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
     icon: GiSittingDog,
+  },
+];
+export const projectItems = [
+  {
+    id: 1,
+    img: tree,
+    title: "Mission 40K: Tree plantation",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+    btn: "See more",
+  },
+  {
+    id: 2,
+    img: palm,
+    title: "Weekly cleanliness program in city",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+    btn: "See more",
+  },
+  {
+    id: 2,
+    img: field,
+    title: "Wildlife safety program 2021",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+    btn: "See more",
+  },
+];
+export const colors = [
+  {
+    id: 1,
+    title: "40% planting trees",
+    color: "#BEF3C0",
+  },
+  {
+    id: 2,
+    title: "40% planting trees",
+    color: "#AC94F1",
+  },
+  {
+    id: 3,
+    title: "40% planting trees",
+    color: "#FFF0CA",
+  },
+  {
+    id: 4,
+    title: "40% planting trees",
+    color: "#F9CF64",
+  },
+  {
+    id: 5,
+    title: "40% planting trees",
+    color: "#F38FBF",
+  },
+];
+export const eventItems = [
+  {
+    id: 1,
+    num: 23,
+    date: "SEP",
+    name: "Next Events",
+    title: "Say no to plastic usage and save the planet",
+    icon: FaArrowRightLong,
+  },
+  {
+    id: 2,
+    num: 25,
+    date: "SEP",
+    name: "Next Events",
+    title: "Weekly cleaning program",
+    icon: FaArrowRightLong,
+  },
+];
+export const awardItems = [
+  {
+    id: 1,
+    num: 2021,
+    title: "Best NGO Award",
+    desc: "Berlin, Germany",
+    img: ngo,
+  },
+  {
+    id: 2,
+    num: 2018,
+    title: "Global Award",
+    desc: "New York, USA",
+    img: global,
+  },
+  {
+    id: 3,
+    num: 2014,
+    title: "Foresto Award",
+    desc: "New Delhi, India",
+    img: foresto,
+  },
+  {
+    id: 4,
+    num: 2010,
+    title: "Earth Saver Award",
+    desc: "Vienna, Austria",
+    img: earth,
   },
 ];

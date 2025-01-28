@@ -53,3 +53,19 @@ iframe {
   margin-top: 96px;
   margin-bottom: 96px;
 }
+.btn {
+  margin-top: 64px;
+}
+.diagram {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.eventCard {
+  padding-top: 32px;
+  padding-bottom: 40px;
+  padding-right: 48px;
+  padding-left: 40px;
+}
+.year {
+  margin-top: 16px;
+}
