@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import Work from "../../assets/work.png";
-import Environment from "../../components/environment";
+import Environment from "../../components/Environment";
 const whatWeDo = () => {
   return (
     <>
