@@ -69,3 +69,8 @@ iframe {
 .year {
   margin-top: 16px;
 }
+.journeyImg {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 96px;
+}

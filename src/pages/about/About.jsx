@@ -4,6 +4,10 @@ import bgtwo from "../../assets/bg2.png";
 import Supporters from "../../components/Supporters";
 import Awards from "@/components/Awards";
 import Journey from "@/components/Journey";
+import Team from "@/components/Team";
+import Contribute from "@/components/Contribute";
+import News from "@/components/News";
+import Events from "@/components/Events";
 const About = () => {
   return (
     <>
@@ -78,7 +82,11 @@ const About = () => {
           </div>
         </div>
         <Awards />
-        <Journey/>
+        <Journey />
+        <Team />
+        <Contribute />
+        <News />
+        <Events />
       </Layout>
     </>
   );

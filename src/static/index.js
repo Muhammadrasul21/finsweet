@@ -25,6 +25,14 @@ import ngo from "../assets/ngo.svg";
 import global from "@/assets/global.svg";
 import earth from "@/assets/earth.svg";
 import foresto from "@/assets/foresto.svg";
+import leonard from "@/assets/leonard.png";
+import francis from "@/assets/francis.png";
+import kylia from "@/assets/kylia.png";
+import adrian from "@/assets/adrian.png";
+import freddy from "@/assets/freddy.png";
+import dale from "@/assets/dale.png";
+import miriam from "@/assets/miriam.png";
+import ellen from "@/assets/ellen.png";
 
 export const navItems = [
   {
@@ -109,13 +117,13 @@ export const mediaImages = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
   },
   {
-    id: 1,
+    id: 2,
     img: dog,
     title: "Why saving wildlife is extremely important",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
   },
   {
-    id: 1,
+    id: 3,
     img: grandma,
     title: "Caring for the present is caring for the future",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
@@ -194,7 +202,7 @@ export const projectItems = [
     btn: "See more",
   },
   {
-    id: 2,
+    id: 3,
     img: field,
     title: "Wildlife safety program 2021",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
@@ -274,5 +282,55 @@ export const awardItems = [
     title: "Earth Saver Award",
     desc: "Vienna, Austria",
     img: earth,
+  },
+];
+export const teamItems = [
+  {
+    id: 1,
+    img: leonard,
+    name: "Leonard John Davies",
+    job: "Cofounder, CEO",
+  },
+  {
+    id: 2,
+    img: francis,
+    name: "Francis Weber",
+    job: "Vice Chairman",
+  },
+  {
+    id: 3,
+    img: kylia,
+    name: "Kyla Obrien",
+    job: "Head of Authority",
+  },
+  {
+    id: 4,
+    img: adrian,
+    name: "Adrian Dixon",
+    job: "Support Executive",
+  },
+  {
+    id: 5,
+    img: freddy,
+    name: "Freddy Busby",
+    job: "Project Manager",
+  },
+  {
+    id: 6,
+    img: dale,
+    name: "Dale Banks",
+    job: "Accountatnt, Finance",
+  },
+  {
+    id: 7,
+    img: miriam,
+    name: "Miriam Middleton",
+    job: "Cofounder, CEO",
+  },
+  {
+    id: 8,
+    img: ellen,
+    name: "Ellen Walton",
+    job: "Vice Chairman",
   },
 ];

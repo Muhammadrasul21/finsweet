@@ -2,6 +2,10 @@ import React from "react";
 import Layout from "../../components/Layout";
 import Work from "../../assets/work.png";
 import Environment from "../../components/Environment";
+import Projects from "@/components/Projects";
+import Contribute from "@/components/Contribute";
+import News from "@/components/News";
+import Events from "@/components/Events";
 const whatWeDo = () => {
   return (
     <>
@@ -30,6 +34,10 @@ const whatWeDo = () => {
           </div>
         </div>
         <Environment />
+        <Projects />
+        <Contribute />
+        <News />
+        <Events />
       </Layout>
     </>
   );
