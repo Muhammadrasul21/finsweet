@@ -1,50 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-.container{
-    width: 1312px;
-    padding: 16px;
-    margin: auto;
+.container {
+  width: 1312px;
+  padding: 16px;
+  margin: auto;
 }
-.hero{
-    padding: 128px 0 64px 0 ;
+.hero {
+  padding: 128px 0 64px 0;
 }
-.heroBtn{
-    margin-top: 48px;
-    padding-bottom: 192px;
+.heroBtn {
+  margin-top: 48px;
+  padding-bottom: 192px;
 }
-.infoWrapper{
-    margin-top: 96px;
+.infoWrapper {
+  margin-top: 96px;
 }
-.logos{
-    margin-top: 33px;
+.logos {
+  margin-top: 33px;
 }
-.title{
-    margin-left: 96px;
+.title {
+  margin-left: 96px;
 }
-.img{
-    margin-bottom: -50px;
+.img {
+  margin-bottom: -50px;
 }
-.desc{
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-    padding: 96px 0 104px 0;
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 96px 0 104px 0;
 }
-.footerBtn{
-    padding: 0 0 0 20px;
+.footerBtn {
+  padding: 0 0 0 20px;
 }
-.footer{
-    padding: 98px 0;
-    margin-top: 50px;
+.footer {
+  padding: 98px 0;
+  margin-top: 50px;
 }
-.textarea{
-    padding: 20px;
+.textarea {
+  padding: 20px;
 }
-iframe{
-    margin-top: 96px;
-    margin-bottom: -50px;
+iframe {
+  margin-top: 96px;
+  margin-bottom: -50px;
+}
+.care {
+  padding: 96px 0;
+  margin-top: 96px;
+  margin-bottom: 96px;
 }
